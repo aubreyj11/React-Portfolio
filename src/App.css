@@ -1,5 +1,14 @@
+:root {
+  --light-green: #757c75;
+  --vlight-green:rgb(184, 189, 184);
+  --dark-green: #2c362f;
+  --dark-blue: #0d3f5c;
+  --light-blue: #a5c1d0;
+}
+
 .App {
   text-align: center;
+  
 }
 
 .App-logo {
@@ -28,6 +37,26 @@
   color: #61dafb;
 }
 
+.footerLink {
+  text-decoration: none;
+  padding: 10px;
+  color: var(--light-green);
+  
+}
+
+.footerLink:hover{
+  color: var(--dark-green);
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: var(--light-blue);
+  padding: 20px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +64,131 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.resumeLinkText {
+  padding: 20px;
+}
+
+.resumeLink{
+  text-decoration: none;
+  color: var(--light-green);
+  padding: 2px;
+}
+
+.resumeLink:hover {
+  color: var(--dark-green);
+}
+
+.nav-link {
+  text-decoration: none;
+  padding: 50px;
+  list-style-type: none;
+  justify-content: space-evenly;
+  color: var(--light-green);
+}
+
+.nav-link:hover {
+  color: var(--dark-green);
+}
+
+.active {
+  color: var(--dark-green);
+}
+
+.navbarUl {
+  
+}
+  
+.nav {
+  display: flex;
+  justify-content: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.contactContaier{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.contactForm{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px;
+  display: grid;
+  place-items: center;
+}
+
+.copyright {
+  font-size: 13px;
+  color: var(--dark-green);
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.headerTitle {
+  color: var(--dark-blue);
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  word-spacing: 5px;
+  letter-spacing: 2.5px;
+  text-align: center;
+  font-size: 35px;
+}
+
+.contactTitle {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight:lighter;
+  text-align: center;
+  padding: 0px;
+  letter-spacing: 2px;
+  color: var(--dark-blue);
+  font-size: 28px;
+  margin-top: 150px;
+}
+
+.formText{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight:bold;
+  padding: 5px;
+  color: var(--dark-green);
+  text-align: center;
+}
+
+.form-input {
+  padding: 10px;
+  margin: 15px;
+  flex-direction: column;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  display: block;
+  width: 200px;
+}
+
+.form-input-message {
+  padding: 30px;
+  width: 250px;
+  margin: 10px;
+  display: inline-block;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+}
+
+.formBtn {
+  padding: 10px;
+  width: 90px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 5px;
+  background-color: var(--vlight-green);
+  cursor: pointer;
+  margin: 25px;
+}
+
+.resumeLinktext{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--dark-green);
+}
+
+.resume {
+  text-align: center;
+  margin-top: 150px;
 }

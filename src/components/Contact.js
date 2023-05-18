@@ -38,21 +38,21 @@ const handleSubmit = (e) => {
 // use onBlur to check validation when user clicks outside of input box
 
   return (
-    <div>
-        <h1>Contact Me!</h1>
-        <p>Fill out the simple form below to get in touch with me!</p>
+    <div className='contactContainer'>
+        <h2 className="contactTitle">Contact Me!</h2>
+        <p className="formText">Fill out the simple form below to get in touch with me!</p>
         <form className='contactForm' onClick={handleSubmit}>
             <input 
             type='text'
             placeholder='Name'
             name='name'
-            className='form-input-name'
+            className='form-input'
             onBlur={checkValidation}></input>
             <input 
             type='text'
             placeholder='Email'
             name='email'
-            className='form-input-email'
+            className='form-input'
             onBlur={checkValidation}></input>
             <input 
             type='text'

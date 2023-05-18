@@ -2,7 +2,7 @@ import React from "react";
 
 function Navigation({ setCurrentPage, currentPage, pages}) {
     return (
-        <nav>
+        <nav className="nav">
             <ul className="navBarUl">
                 <li className="nav-link active">
                     <a 
