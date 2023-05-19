@@ -1,9 +1,11 @@
 :root {
-  --light-green: #757c75;
+  --light-green: #6e786e;
   --vlight-green:rgb(184, 189, 184);
   --dark-green: #2c362f;
   --dark-blue: #0d3f5c;
-  --light-blue: #a5c1d0;
+  --light-blue: #b8ceda;
+  --med-blue: #265c7b ;
+  --mlight-blue: #7099af;
 }
 
 .App {
@@ -66,18 +68,16 @@
   }
 }
 
-.resumeLinkText {
-  padding: 20px;
-}
+
 
 .resumeLink{
   text-decoration: none;
-  color: var(--light-green);
+  color: var(--vlight-green);
   padding: 2px;
 }
 
 .resumeLink:hover {
-  color: var(--dark-green);
+  color: var(--light-green);
 }
 
 .nav-link {
@@ -178,17 +178,101 @@
   width: 90px;
   font-family:Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 5px;
-  background-color: var(--vlight-green);
+  background-color: var(--dark-blue);
   cursor: pointer;
   margin: 25px;
+  color: white;
 }
 
-.resumeLinktext{
-  font-family:Verdana, Geneva, Tahoma, sans-serif;
-  color: var(--dark-green);
+.formBtn:hover {
+  background-color: var(--med-blue);
 }
+
+.resumeLinkText{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: var(--dark-green);
+  font-size: 20px;
+  padding: 30px;
+}
+
 
 .resume {
   text-align: center;
   margin-top: 150px;
+}
+
+.listTitle {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 23px;
+  color: var(--dark-blue);
+  text-align: center;
+  margin-top: 50px;
+  letter-spacing: 1px;
+  padding: 10px;
+  margin-top: 100px;
+}
+
+.skillsList {
+  text-align: center;
+  list-style-type: none;
+  display: inline;
+  position: relative;
+  
+}
+
+.SL-item {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+  color: var(--dark-green);
+  margin-top: 10px;
+  padding: 5px;
+  color: var(--light-green)
+}
+
+.projectImg{
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+  border: 1px solid var(--dark-blue);
+  border-radius: 4px;
+}
+
+.projectFigure {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  margin-top: 100px;
+  padding: 10px;
+  border-radius: 4px;
+  width: 300px;
+  height: 300px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: var(--dark-blue);
+  font-size: 20px;
+  letter-spacing: 2px;
+  float: left;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: var(--dark-blue);
+  font-size: 18px;
+  padding: 10px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  
+}
+
+.projectLink:hover {
+  color: var(--mlight-blue);
+}
+
+.projectsTitle{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: var(--light-green);
+  text-align: center;
+  margin: 20px;
+  letter-spacing: 1px;
+  padding: 20px;
 }
