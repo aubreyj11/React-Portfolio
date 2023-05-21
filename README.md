@@ -34,7 +34,7 @@ View my deployed app [HERE](https://git.heroku.com/guarded-spire-40383.git) !
 ## Usage
 This easy to use application just requires users to click on which ever link they would like more information about. View the About Me for information about me, or the Projects tab to view some of my completed apps! There is also links to my Github account! <br>
 
-![Portfolio Screenshot](/client/src/images/readmePhoto.png)
+![Portfolio Screenshot](/src/components/images/readmePhoto.png)
 
 
 <br>
