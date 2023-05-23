@@ -23,7 +23,7 @@ This is a React application that is designed to showcase the projects and apps I
 To get this app working, simply visit the deployed link. From there, users can click on the different links in the header to view more information on me and the projects I have done. 
 
 
-View my deployed app [HERE](https://git.heroku.com/guarded-spire-40383.git) !
+View my deployed app [HERE](https://euphonious-cassata-ac7c09.netlify.app/#aboutme) !
 <br>
 
 
