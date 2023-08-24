@@ -114,7 +114,6 @@
 
 .contactForm{
   font-family:Verdana, Geneva, Tahoma, sans-serif;
-  padding: 20px;
   display: grid;
   place-items: center;
  
@@ -143,7 +142,7 @@
   letter-spacing: 2px;
   color: var(--dark-blue);
   font-size: 28px;
-  margin-top: 150px;
+  margin-top: 120px;
 }
 
 .formText{
@@ -338,4 +337,14 @@
   display: flex;
   justify-content: space-around;
   margin-left: 90px;
+}
+
+.emailSent{
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight:bold;
+  padding: 5px;
+  color: var(--dark-green);
+  text-align: center;
 }
