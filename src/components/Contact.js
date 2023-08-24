@@ -69,6 +69,7 @@ const Contact = () => {
     <div className='contactContainer'>
         <h2 className="contactTitle">Contact Me!</h2>
         <p className="formText">Fill out the simple form below to get in touch with me!</p>
+        {emailSent && <p className="emailSent">Email Sent!</p>}
         <form ref={form} className='contactForm' onSubmit={handleSubmit}>
             <input 
             type='text'
@@ -92,7 +93,7 @@ const Contact = () => {
             <button type="submit" value="Send" className='formBtn'>Send!</button>
             
         </form>
-        {emailSent && <p className="emailSent">Email Sent!</p>}
+        
         
     </div>
   )
